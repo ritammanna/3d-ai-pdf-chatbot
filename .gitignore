@@ -1,0 +1,24 @@
+# Environment variables (NEVER push API keys to GitHub!)
+.env
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Uploaded PDFs and temp storage
+uploads/*
+!uploads/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

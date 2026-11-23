@@ -33,45 +33,6 @@ A cutting-edge, production-ready **Generative AI PDF Chatbot** powered by **RAG 
 
 ---
 
-## 📋 Installation & Setup Guide
-
-### 1. Open Terminal & Go to the Project Directory
-```powershell
-cd "C:\Users\HP\.gemini\antigravity\scratch\ai-pdf-chatbot-3d"
-```
-
-### 2. Create and Activate Virtual Environment
-```powershell
-python -m venv venv
-.\venv\Scripts\Activate.ps1
-```
-
-### 3. Install Dependencies
-```powershell
-pip install -r requirements.txt
-```
-
-### 4. Configure Your API Key
-Open `.env` file in the project folder and paste your free Google Gemini API key:
-```env
-GEMINI_API_KEY=your_actual_gemini_api_key_here
-```
-> 💡 *Don't have a Gemini API key yet? Get one 100% free at: [Google AI Studio](https://aistudio.google.com/app/apikey)*
-
-### 5. Run the Application
-```powershell
-python main.py
-```
-Or with Uvicorn directly:
-```powershell
-uvicorn app.api:app --reload --port 8000
-```
-
-### 6. Open in Browser
-Visit: **[http://localhost:8000](http://localhost:8000)**
-
----
-
 ## 📂 Project Directory Structure
 
 ```
